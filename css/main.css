@@ -1,0 +1,429 @@
+/*
+ * Start Bootstrap - Landing Page (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+footer,
+h1,
+h2,
+h3,
+h4,
+h5,
+a,
+h6 {
+    font-weight: 200;
+    font-family: 'Lato', sans-serif;
+}
+.pixel-font{
+  font-family: 'Press Start 2p', cursive;
+  font-size:16px;
+
+}
+.opaque-red{
+  background-color: rgba(255,50,82, 0.7);
+}
+
+.opaque-blue{
+  background-color:rgba(10,10,255,0.6);
+}
+.pixel-font-h1{
+  font-family: 'Press Start 2p', cursive;
+  font-size:40px;
+}
+
+
+.pixel-font-h2{
+  font-family: 'Press Start 2p', cursive;
+  font-size:22px;
+}
+
+h4{
+  line-height: 30px;
+}
+
+.topnav {
+    font-size: 14px;
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.intro-header {
+    padding-top: 80px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/bg-camps.png) no-repeat center center;
+    background-size: cover;
+}
+.jumbotron{
+    position: relative;
+    background: white;
+}
+.jumbotron h1{
+    font-size:3em;
+}
+
+.center{
+  text-align: center;
+}
+.intro-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    font-size: 10em;
+}
+h1{
+  font-size:4em;
+}
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3 {
+
+}
+
+.padding30{
+  padding-top:30px;
+  padding-bottom:30px;
+}
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.content-section-a {
+    padding: 50px 0;
+    background-image: url(../img/background-tri.png);
+    background-size: cover;
+    background-position:top;
+
+}
+
+img{
+  border-radius:10px;
+}
+
+.about-2{
+  padding-top:50px;
+}
+
+.clubs{
+  padding-top:100px;
+  padding-bottom:25px;
+}
+
+.clubs-2{
+  background-color:#ffbc49;
+  padding-top:25px;
+    padding-bottom:25px;
+
+}
+
+.clubs-3{
+  background-color:#ff5c5c;
+  padding-top:25px;
+    padding-bottom:25px;
+
+}
+.clubs-4{
+  background-color:#f5da63;
+  padding-top:25px;
+    padding-bottom:25px;
+
+}
+
+.clubs-5{
+
+  padding-top:25px;
+    padding-bottom:25px;
+}
+
+.break{
+  padding-top:25px;
+}
+
+.crafty-font{
+  font-family: 'Barrio', cursive;
+}
+
+.block-font{
+  font-family: 'VT323', monospace;
+}
+
+.marker-font{
+  font-family: 'Permanent Marker', cursive;
+  font-size:40px;
+}
+
+
+
+.javascript-font{
+    font-family: 'Source Code Pro', monospace;
+}
+.content-section-info {
+    padding: 50px 0;
+    background-image: url(../img/drone-girls.png);
+    background-size: cover;
+    background-position:  left;
+
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.overlay{
+  background-color:rgba(255,255,255,0.8);
+}
+
+
+.testimonial{
+  background-color: #0b99cd;
+  color:white;
+}
+
+.content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    background-image:url(../img/gplaypattern.png);
+    background-repeat: repeat;
+}
+.content-section-camps {
+
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    background-image:url(../img/gplaypattern.png);
+    background-repeat: repeat;
+}
+
+
+#video-background {
+/*  making the video fullscreen  */
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: ;
+}
+
+.schools{
+  padding-top:75px;
+}
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.label{
+  font-size:15px;
+  border-bottom: 20px;
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
+footer { background-image:url(../img/bg-camps.png); min-height:350px; }
+.footer-col { margin-top:40px; }
+.logofooter { margin-bottom:10px; margin-top:-15px; margin-left:-30px; font-size:25px; color:#dc4f4f; font-weight:700;}
+
+.footer-col p { color:#fff; font-size:13px; margin-bottom:15px;}
+.footer-col p i { width:20px; color:#999;}
+
+.footer-ul { list-style-type:none;  padding-left:0; margin-left:2px;}
+.footer-ul li { line-height:29px; font-size:14px;}
+.footer-ul li a { color:#fff; transition: color 0.2s linear 0s, background 0.2s linear 0s; }
+.footer-ul i { margin-right:10px;}
+.footer-ul li a:hover {transition: color 0.2s linear 0s, background 0.2s linear 0s; color:#ff670f; }
+
+ .copyright { min-height:40px; background-color:#dc4f4f;}
+ .copyright p { text-align:left; color:#ffff; padding:10px 0; margin-bottom:0;}
+ .heading7 { font-size:21px; font-weight:700; color:#d9d6d6; margin-bottom:22px;}
+ .post p { font-size:12px; color:#ffff; line-height:20px;}
+ .post p span { display:block; color:#ffff;}
+ .bottom_ul { list-style-type:none; float:right; margin-bottom:0;}
+ .bottom_ul li { float:left; line-height:40px;}
+ .bottom_ul li:after { content:"/"; color:#ffff; margin-right:8px; margin-left:8px;}
+ .bottom_ul li a { color:#ffff;  font-size:12px;}
+.social-icon {
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+    margin-right: 10px;
+    padding-top: 7px;
+    border-radius: 50%;
+}
+ .footer-social li{
+     float:left;
+     list-style-type: none;
+     padding-top:20px;
+     margin-left: 0px;
+ }
+ .linked-in{
+     background-color:#007bb6;
+ }
+ .facebook{
+     background-color:#3b5998;
+ }
+ .twitter{
+     background-color:#1da1f2;
+ }
+ .google{
+     background-color:#f63e28;
+ }
+
+
+@media (max-width: 800px) {
+
+	.footer-distributed{
+
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+.icons{
+  display:none;
+  visibility: hidden;
+}
+
+}
+
+.red-box {
+  padding:5px;
+  margin-bottom: 25px;
+  background-color:#f15d5e;
+    color:#ffff;
+
+}
+
+
+
+ul{
+     list-style-type: none;
+}
+
+.about{
+  padding-top:50px;
+  padding-bottom:50px;
+  background-image: url("../img/background-tri.png");
+  background-position: right;
+  margin-top:50px;
+
+}
+
+.camps{
+  padding-top:50px;
+  padding-bottom:50px;
+  margin-top:50px;
+}
